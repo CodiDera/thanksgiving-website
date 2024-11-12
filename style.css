@@ -11,7 +11,24 @@ p{
 header{
     background-color: #ad7f1b; 
     padding: 1em; 
+    text-align: center; 
 }
 a{
-    color: green; 
+    color: #06402b; 
+    padding: 1em; 
+}
+iframe{
+    margin: 1em;
+}
+.container{
+    display: grid; 
+    grid-template-columns: 10em 20em 30em; 
+}
+.standard-item{
+    border: 1px solid;
+    padding: 1em;
+    height: 4em; 
+}
+.tall-item{
+
 }
