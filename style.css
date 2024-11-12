@@ -5,8 +5,6 @@ body{
 }
 p{
     color: black; 
-    padding: 1em; 
-    margin: 1em; 
 }
 header{
     background-color: #ad7f1b; 
@@ -22,13 +20,18 @@ iframe{
 }
 .container{
     display: grid; 
-    grid-template-columns: 10em 20em 30em; 
+    grid-template-columns: 10em auto auto; 
+    align-content: center;
+    padding-right: 10em;
+    text-align: center;
 }
 .standard-item{
-    border: 1px solid;
-    padding: 1em;
+    grid-column: 2 / span 2; 
+    padding: 2em;
     height: 4em; 
+    border: 1px solid;
 }
 .tall-item{
-
+    grid-row: 1 / span 6;
+    background-color: #ad7f1b;
 }
