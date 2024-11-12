@@ -1,9 +1,12 @@
 body{
     background-color: #e89f2f;
+    margin: 0;
+    padding: 0; 
 }
 p{
     color: black; 
 }
 header{
     background-color: #ad7f1b; 
+    padding: 1em; 
 }
