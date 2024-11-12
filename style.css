@@ -5,6 +5,8 @@ body{
 }
 p{
     color: black; 
+    padding: 1em; 
+    margin: 1em; 
 }
 header{
     background-color: #ad7f1b; 
