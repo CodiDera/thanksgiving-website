@@ -65,14 +65,17 @@ img{
 .center{
     text-align: center;
 }
-@keyframes animation{
+@keyframes slidein{
     from{
-
+        translate: 150vw 0;
+        scale: 200% 1;
     }
     to{
-
+        translate: 0 0;
+        scale: 100% 1;
     }
 }
-.animation{
-
+.slidein{
+    animation-duration: 3s;
+    animation-name: slidein;
 }
