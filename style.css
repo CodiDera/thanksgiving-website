@@ -2,9 +2,11 @@ body{
     background-color: #f9f1d9;
     margin: 0;
     padding: 0; 
+    overflow: hidden; 
 }
 p{
-    color: black; 
+    color: #762b18;
+    text-align: center; 
 }
 header{
     background-color: #cf933e; 
@@ -21,6 +23,9 @@ a{
 h1{
     color: #762b18; 
 }
+h3{
+    color: #762b18;
+}
 iframe{
     margin: 1em;
     height: 20em;
@@ -31,13 +36,19 @@ iframe:hover{
     width: 35em;
 
 }
+img{
+    padding: 1em; 
+    margin: 1em; 
+    height: 20em;
+}
 .container{
     display: grid; 
     grid-template-columns: 20em 20em auto; 
-    grid-template-rows: 20em 20em auto; 
+    grid-template-rows: 20em 20em 8.75em; 
     align-content: center;
     padding-right: 10em;
     text-align: center;
+    overflow: clip;
 }
 .standard-item{
     grid-column: 2 / span 2; 
@@ -49,7 +60,19 @@ iframe:hover{
     padding: 2em; 
     background-color: #e3c29e;
     text-align: center; 
+    overflow: hidden clip;
 }
 .center{
     text-align: center;
+}
+@keyframes animation{
+    from{
+
+    }
+    to{
+
+    }
+}
+.animation{
+
 }
