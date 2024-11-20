@@ -7,6 +7,7 @@ body{
 p{
     color: #762b18;
     text-align: center; 
+    line-height: 1.8;
 }
 header{
     background-color: #cf933e; 
@@ -19,6 +20,7 @@ hr{
 a{
     color: #762b18; 
     padding: 1em; 
+    line-height: 1.8; 
 }
 h1{
     color: #762b18; 
@@ -84,4 +86,15 @@ img{
 .slidein{
     animation-duration: 3s;
     animation-name: slidein;
+}
+@keyframes tilt{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(20deg);}
+    100% {transform: rotate(-20deg);}
+}
+.tilt{
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: tilt; 
+    animation-direction: alternate;
 }
