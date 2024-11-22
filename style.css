@@ -99,3 +99,24 @@ img{
     animation-name: tilt; 
     animation-direction: alternate;
 }
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
+.tooltip{
+   position:relative;
+   display:inline-block;
+   height:100px; 
+}
+.tooltip-text{
+    width: 200px;
+    background-color: #e3c29e;
+    color: #ffffff;
+    text-align: center;
+    border-radius:6px; 
+    position: absolute;
+    z-index: 1; 
+    left: 260px;
+    top: 65px;
+    padding: 10px;
+    visibility:hidden;
+}
